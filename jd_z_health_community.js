@@ -13,6 +13,20 @@
  * @abbrlink: 
  */
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 东东健康社区
 更新时间：2021-4-22
 活动入口：京东APP首页搜索 "玩一玩"即可
@@ -34,8 +48,8 @@ const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
 const notify = $.isNode() ? require('./sendNotify') : "";
 let cookiesArr = [], cookie = "", allMessage = "", message;
 const inviteCodes = [
-  `T020vfRxRBwY8VPKKRzykvMCCjVfnoaW5kRrbA@T0225KkcRE0YpgaGKRz2xfYPdQCjVfnoaW5kRrbA`,
-  `T020vfRxRBwY8VPKKRzykvMCCjVfnoaW5kRrbA@T0225KkcRE0YpgaGKRz2xfYPdQCjVfnoaW5kRrbA`,
+  `T020vfRxRBwY8VPKKRzykvMCCjVfnoaW5kRrbA@T0225KkcRE0YpgaGKRz2xfYPdQCjVfnoaW5kRrbA@T024vP5yQhwe_FTUPRP0nfUPcKGBCjVfnoaW5kRrbA`,
+  `T020vfRxRBwY8VPKKRzykvMCCjVfnoaW5kRrbA@T0225KkcRE0YpgaGKRz2xfYPdQCjVfnoaW5kRrbA@T024vP5yQhwe_FTUPRP0nfUPcKGBCjVfnoaW5kRrbA`,
 ]
 let reward = $.isNode() ? (process.env.JD_HEALTH_REWARD_NAME ? process.env.JD_HEALTH_REWARD_NAME : '') : ($.getdata('JD_HEALTH_REWARD_NAME') ? $.getdata('JD_HEALTH_REWARD_NAME') : '');
 const randomCount = $.isNode() ? 20 : 5;

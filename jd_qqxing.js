@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 星系牧场
 活动入口：QQ星儿童牛奶京东自营旗舰店->星系牧场
 每次都要手动打开才能跑 不知道啥问题

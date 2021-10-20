@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 闪购盲盒
 长期活动，一人每天5次助力机会，10次被助机会，被助力一次获得一次抽奖机会，前几次必中京豆
 修改自 @yangtingxiao 抽奖机脚本
@@ -29,8 +43,8 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let appId = '1EFRXxg' , homeDataFunPrefix = 'interact_template', collectScoreFunPrefix = 'harmony', message = ''
 let lotteryResultFunPrefix = homeDataFunPrefix, browseTime = 6
 const inviteCodes = [
-  'T0225KkcRBgR8AbVIR_zwv8NcACjVQmoaT5kRrbA@T0225KkcRE1LoFKGKU_9nfQJIQCjVQmoaT5kRrbA@T012_aUqHklGqQiLCjVQmoaT5kRrbA',
-  'T0225KkcRBgR8AbVIR_zwv8NcACjVQmoaT5kRrbA@T0225KkcRE1LoFKGKU_9nfQJIQCjVQmoaT5kRrbA@T012_aUqHklGqQiLCjVQmoaT5kRrbA'
+  'T020vfRxRBwY8VPKKRzykvMCCjVQmoaT5kRrbA@T0225KkcRE0YpgaGKRz2xfYPdQCjVQmoaT5kRrbA@T024vP5yQhwe_FTUPRP0nfUPcKGBCjVQmoaT5kRrbA@T018v_V0QB8d8lDRKROb1ACjVQmoaT5kRrbA',
+  'T020vfRxRBwY8VPKKRzykvMCCjVQmoaT5kRrbA@T0225KkcRE0YpgaGKRz2xfYPdQCjVQmoaT5kRrbA@T024vP5yQhwe_FTUPRP0nfUPcKGBCjVQmoaT5kRrbA@T018v_V0QB8d8lDRKROb1ACjVQmoaT5kRrbA',
 ];
 const randomCount = $.isNode() ? 20 : 5;
 const notify = $.isNode() ? require('./sendNotify') : '';

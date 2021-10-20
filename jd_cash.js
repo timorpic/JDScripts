@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 签到领现金，每日2毛～5毛
 可互助，助力码每日不变，只变日期
 活动入口：京东APP搜索领现金进入
@@ -31,8 +45,8 @@ let helpAuthor = true;
 const randomCount = $.isNode() ? 5 : 5;
 let cash_exchange = false;//是否消耗2元红包兑换200京豆，默认否
 const inviteCodes = [
-  `eU9YaOq6Y64k8GvSnXsU0g@eU9YaL_gM_p3-DvcwnAQgw@YENuMrvtOqB6@eU9Ya-26b_gv9muBznAR0Q`,
-  `eU9YaOq6Y64k8GvSnXsU0g@eU9YaL_gM_p3-DvcwnAQgw@YENuMrvtOqB6@eU9Ya-26b_gv9muBznAR0Q`
+  `IBI1aO6zYvs7-GjTzXcb@eU9YaL-zNa53-GjXmnIW1w@IhMwbO22Yfgg-Ge6iw@IRg2bu61b_wl7GfVwnEW0rzM`,
+  `IBI1aO6zYvs7-GjTzXcb@eU9YaL-zNa53-GjXmnIW1w@IhMwbO22Yfgg-Ge6iw@IRg2bu61b_wl7GfVwnEW0rzM`
 ]
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {

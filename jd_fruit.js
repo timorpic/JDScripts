@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 东东水果:脚本更新地址 https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js
 更新时间：2021-5-18
 活动入口：京东APP我的-更多工具-东东农场
@@ -30,11 +44,15 @@ let cookiesArr = [], cookie = '', jdFruitShareArr = [], isBox = false, notify, n
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // 这个列表填入你要助力的好友的shareCode
   //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
- 'd4f5c457f7f74ebb8d8995f6ecc2a8ab@52484bd8bbdd48cca85ff09a983a762d@643662ac768b413fb6d7f6ee6a675614',
+ 'debfd7bcf944428caab3fe4c2ac629a2@fd222c20cb654e7c933eeb38a4072841@qfxorx3ir6l52hvsosdrs2ms4y3h7wlwy7o5jii@28aa304ed0124451b9af2b38a23f3cb8',
  //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
- 'd4f5c457f7f74ebb8d8995f6ecc2a8ab@52484bd8bbdd48cca85ff09a983a762d@643662ac768b413fb6d7f6ee6a675614',
+ 'debfd7bcf944428caab3fe4c2ac629a2@fd222c20cb654e7c933eeb38a4072841@qfxorx3ir6l52hvsosdrs2ms4y3h7wlwy7o5jii@28aa304ed0124451b9af2b38a23f3cb8',
  //账号三的好友shareCode,不同好友的shareCode中间用@符号隔开
- 'd4f5c457f7f74ebb8d8995f6ecc2a8ab@52484bd8bbdd48cca85ff09a983a762d@643662ac768b413fb6d7f6ee6a675614',
+ 'debfd7bcf944428caab3fe4c2ac629a2@fd222c20cb654e7c933eeb38a4072841@qfxorx3ir6l52hvsosdrs2ms4y3h7wlwy7o5jii@28aa304ed0124451b9af2b38a23f3cb8',
+ //账号四的好友shareCode,不同好友的shareCode中间用@符号隔开
+ 'debfd7bcf944428caab3fe4c2ac629a2@fd222c20cb654e7c933eeb38a4072841@qfxorx3ir6l52hvsosdrs2ms4y3h7wlwy7o5jii@28aa304ed0124451b9af2b38a23f3cb8',
+ //账号五的好友shareCode,不同好友的shareCode中间用@符号隔开
+ 'debfd7bcf944428caab3fe4c2ac629a2@fd222c20cb654e7c933eeb38a4072841@qfxorx3ir6l52hvsosdrs2ms4y3h7wlwy7o5jii@28aa304ed0124451b9af2b38a23f3cb8',
 ]
 let message = '', subTitle = '', option = {}, isFruitFinished = false;
 const retainWater = 100;//保留水滴大于多少g,默认100g;

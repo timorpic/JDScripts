@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 种豆得豆 脚本更新地址：https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_plantBean.js
 更新时间：2021-04-9
 活动入口：京东APP我的-更多工具-种豆得豆
@@ -34,9 +48,9 @@ const JD_API_HOST = 'https://api.m.jd.com/client.action';
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好友的shareCode
   //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-  'e7lhibzb3zek2fjsi7wcketyu2lpa5d4a5mxiga@4npkonnsy7xi2jkey7eknaeqvl55a5qkubun6cy@7m6jcsjkunhtagssns47oc24d4@7m6jcsjkunhtagssns47oc24d4',
+  '5bxg4676evw6qdusjhiv5c4xikp7rpxmxkyibqa@e7lhibzb3zek2dngmsqazpy7yqe5uszc3vwyrxi@qfxorx3ir6l52hvsosdrs2ms4y3h7wlwy7o5jii@iky3wi5aars3hkppuochkcikggbi2wtsf4cbyja',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  'e7lhibzb3zek2fjsi7wcketyu2lpa5d4a5mxiga@4npkonnsy7xi2jkey7eknaeqvl55a5qkubun6cy@7m6jcsjkunhtagssns47oc24d4@7m6jcsjkunhtagssns47oc24d4'
+  '5bxg4676evw6qdusjhiv5c4xikp7rpxmxkyibqa@e7lhibzb3zek2dngmsqazpy7yqe5uszc3vwyrxi@qfxorx3ir6l52hvsosdrs2ms4y3h7wlwy7o5jii@iky3wi5aars3hkppuochkcikggbi2wtsf4cbyja'
 ]
 let allMessage = ``;
 let currentRoundId = null;//本期活动id

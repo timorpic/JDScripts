@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 东东萌宠 更新地址： https://gitee.com/lxk0301/jd_scripts/raw/master/jd_pet.js
 更新时间：2021-05-21
 活动入口：京东APP我的-更多工具-东东萌宠
@@ -31,9 +45,9 @@ let cookiesArr = [], cookie = '', jdPetShareArr = [], isBox = false, notify,newS
 //下面给出两个账号的填写示例（iOS只支持2个京东账号）
 let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好友的shareCode
    //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
-  'MTAxODcxOTI2NTAwMDAwMDAxMDk2NTk2OQ==@MTEyOTEzNzMzMDAwMDAwMDUwMjEyNjA3@MTAxODc2NTEzNTAwMDAwMDAyMDUxNjkzMw==',
+  'MTAxODcxOTI2NTAwMDAwMDAyNTUxNzEwMw==@MTE1NDQ5OTIwMDAwMDAwNDQwMzIxNDc=',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  'MTAxODcxOTI2NTAwMDAwMDAxMDk2NTk2OQ==@MTEyOTEzNzMzMDAwMDAwMDUwMjEyNjA3@MTAxODc2NTEzNTAwMDAwMDAyMDUxNjkzMw==',
+  'MTAxODcxOTI2NTAwMDAwMDAyNTUxNzEwMw==@MTE1NDQ5OTIwMDAwMDAwNDQwMzIxNDc='
 ]
 let message = '', subTitle = '', option = {};
 let jdNotify = false;//是否关闭通知，false打开通知推送，true关闭通知推送

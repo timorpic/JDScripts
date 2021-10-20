@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 伊利养牛记
 号1默认给我助力,后续接龙 2给1 3给2
 如果提示没有养牛 自己手动进去养一只
@@ -32,7 +46,7 @@ if ($.isNode()) {
 
 const JD_API_HOST = `https://api.m.jd.com/client.action`;
 message = ""
-$.shareuuid = "0cffcc049ccd415da4ee6b24e96c8eb5"
+$.shareuuid = "7ab413592f1344e0b076417530457760"
     !(async () => {
         if (!cookiesArr[0]) {
             $.msg($.name, '【提示】请先获取cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/', {

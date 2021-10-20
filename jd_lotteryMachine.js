@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 京东抽奖机
 更新时间：2021-08-09 14:30
 脚本说明：抽奖活动,有新活动可以@我或者提Issues
@@ -18,7 +32,7 @@ const STRSPLIT = "|";
 const needSum = false;            //是否需要显示汇总
 const printDetail = false;        //是否显示出参详情
 const appIdArr = ['1EFRRxA','1EFRQwA','1EFRXxg','1EFVRxg','1E1xVyqw']
-const shareCodeArr = ['T0225KkcRBgR8AbVIR_zwv8NcACjVWmIaW5kRrbA','T0225KkcRBgR8AbVIR_zwv8NcACjVXnIaW5kRrbA','T0225KkcRBgR8AbVIR_zwv8NcACTJfnqS7zDcjeQOc','T0225KkcRBgR8AbVIR_zwv8NcACjVQmoaT5kRrbA','T0225KkcRx4b8lbWJU72wvZZcwCjRXnYaU5kRrbA','T0225KkcRBgR8AbVIR_zwv8NcACTJfn6-7zDQjeQOc']
+const shareCodeArr = ['T020vfRxRBwY8VPKKRzykvMCCjVWmIaW5kRrbA','T020vfRxRBwY8VPKKRzykvMCCjVXnIaW5kRrbA','T020vfRxRBwY8VPKKRzykvMCCjVQmoaT5kRrbA','T0225KkcRE0YpgaGKRz2xfYPdQCjVWmIaW5kRrbA','T0225KkcRE0YpgaGKRz2xfYPdQCjVQmoaT5kRrbA','T024vP5yQhwe_FTUPRP0nfUPcKGBCjVQmoaT5kRrbA']
 const homeDataFunPrefixArr = ['interact_template','interact_template','harmony_template','','','','','','','','','','interact_template','interact_template']
 const collectScoreFunPrefixArr = ['','','','','','','','','','','','','interact_template','interact_template']
 const lotteryResultFunPrefixArr = ['','','','','','','','','','','','','','interact_template','interact_template']

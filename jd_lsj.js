@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 #京东零食街
 
 后续添加自动兑换功能 如入会失败 自行去入会
@@ -20,7 +34,7 @@ let useInfo = {};
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', message;
 let newShareCodes = [];
-$.ShareCode = ['08EFA799F8D5FB996767AB8D5F84C302211790C5940735B3C8CB3C719CB08DC349336DE54E26AA8F2834B248E6398CB7A755DF4FDAE585EC3E1ABE26F3DD3CFFC956D12974FF00A045D8E31A84FE84C18A8357DE96A1F617B8AC4D64BC24B689'];
+$.ShareCode = ['00C63DA490F661D75FD0DF0846AD76D05170EE34C932EF873D35342CC5139B1B74D05EDAD17077AFFA80DAD7387DD28B3BEE5701143FCA11A003164F79A3ADAEDDDA672BF446E2FCC0D1D6B4E52826D1'];
 let lsjdh = '';
 if (process.env.lsjdh) {
   lsjdh = process.env.lsjdh;

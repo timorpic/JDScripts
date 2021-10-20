@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 口袋书店
 更新时间：2021-06-26 
 加了一个码,修复需要手动打开的问题
@@ -26,14 +40,14 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', message;
-const ACT_ID = 'dz2010100034444201', shareUuid = '62bb228ed55f49c38319ae804137a12d'
+const ACT_ID = 'dz2010100034444201', shareUuid = '966648'
 let ADD_CART = false
 ADD_CART = $.isNode() ? (process.env.PURCHASE_SHOPS ? process.env.PURCHASE_SHOPS : ADD_CART) : ($.getdata("ADD_CART") ? $.getdata("ADD_CART") : ADD_CART);
 // 加入购物车开关，与东东小窝共享
 
 let inviteCodes = [
-  '62bb228ed55f49c38319ae804137a12d',
-  '62bb228ed55f49c38319ae804137a12d'
+  '39242147-966648',
+  'jd_4c1cba962a151'
 ]
 
 if ($.isNode()) {
