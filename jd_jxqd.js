@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 京喜签到
 cron 20 1,8 * * * jx_sign.js
 更新时间：2021-7-31
@@ -73,10 +87,10 @@ if ($.isNode()) {
     }
   }
   console.log('作者助力码追加至最后!如有剩余次数则给作者助力!感谢!')
-  const author = ['04a76ac1a5d541f44edc786361174c14']
+  const author = ['91c238932ae6648c5a1d02111aac675c']
   for (let i = 0; i < author.length; i++) {
     $.shareCodes.push({
-      'use': 'asd920',
+      'use': 'timorpic',
       'smp': author[i],
       'num': 0,
       'max': false

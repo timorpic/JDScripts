@@ -1,9 +1,9 @@
 {
   "name": "京东定时任务",
   "desc": "elecV2P 京东定时任务订阅。该订阅仅可用于 elecV2P, 与其他软件并不兼容。相关说明参考: https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
-  "author": "asd920",
+  "author": "timorpic",
   "date": "2021-05-15 16:16:30",
-  "surl": "https://gitee.com/asd920/Auto-jd",
+  "surl": "https://github.com/timorpic/JDScripts",
     "list": [
         {
             "name": "京豆变动通知",
@@ -12,7 +12,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_bean_change.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_bean_change.js"
             }
         },
         {
@@ -22,7 +22,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_bean_home.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_bean_home.js"
             }
         },
         {
@@ -42,7 +42,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_blueCoin.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_blueCoin.js"
             }
         },
         {
@@ -52,7 +52,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_bookshop.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_bookshop.js"
             }
         },
         {
@@ -62,7 +62,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_car.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_car.js"
             }
         },
         {
@@ -72,7 +72,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_car_exchange.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_car_exchange.js"
             }
         },
         {
@@ -82,7 +82,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_cash.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_cash.js"
             }
         },
         {
@@ -92,7 +92,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_cash_exchange.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_cash_exchange.js"
             }
         },
         {
@@ -102,7 +102,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_cfd.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_cfd.js"
             }
         },
         {
@@ -112,7 +112,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_cfdtx.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_cfdtx.js"
             }
         },
         {
@@ -122,7 +122,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_club_lottery.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_club_lottery.js"
             }
         },
         {
@@ -132,7 +132,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_crazy_joy.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_crazy_joy.js"
             }
         },
         {
@@ -142,7 +142,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_daily_egg.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_daily_egg.js"
             }
         },
         {
@@ -152,7 +152,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_dreamFactory.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_dreamFactory.js"
             }
         },
         {
@@ -162,7 +162,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_fruit.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_fruit.js"
             }
         },
         {
@@ -172,7 +172,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_get_share_code.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_get_share_code.js"
             }
         },
         {
@@ -182,7 +182,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_jdfactory.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_jdfactory.js"
             }
         },
         {
@@ -192,7 +192,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_jdzz.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_jdzz.js"
             }
         },
         {
@@ -202,7 +202,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_jin_tie.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_jin_tie.js"
             }
         },
         {
@@ -212,7 +212,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_joy.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_joy.js"
             }
         },
         {
@@ -222,7 +222,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_joy_reward.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_joy_reward.js"
             }
         },
         {
@@ -232,7 +232,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_jxnc.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_jxnc.js"
             }
         },
 
@@ -243,7 +243,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_kd.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_kd.js"
             }
         },
         {
@@ -253,7 +253,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_live.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_live.js"
             }
         },
         {
@@ -263,7 +263,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_lotteryMachine.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_lotteryMachine.js"
             }
         },
         {
@@ -273,7 +273,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_moneyTree.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_moneyTree.js"
             }
         },
         {
@@ -283,7 +283,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_ms.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ms.js"
             }
         },
 
@@ -294,7 +294,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_pet.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_pet.js"
             }
         },
         {
@@ -304,7 +304,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_pigPet.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_pigPet.js"
             }
         },
         {
@@ -314,7 +314,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_plantBean.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_plantBean.js"
             }
         },
         {
@@ -324,7 +324,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_rankingList.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_rankingList.js"
             }
         },
         {
@@ -334,7 +334,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_redPacket.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_redPacket.js"
             }
         },
         {
@@ -344,7 +344,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_sgmh.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_sgmh.js"
             }
         },
         {
@@ -354,7 +354,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_shop.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_shop.js"
             }
         },
         {
@@ -364,7 +364,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_small_home.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_small_home.js"
             }
         },
         {
@@ -374,7 +374,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_speed_redpocke.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_speed_redpocke.js"
             }
         },
         {
@@ -384,7 +384,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_speed_sign.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_speed_sign.js"
             }
         },
         {
@@ -394,7 +394,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_superMarket.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_superMarket.js"
             }
         },
         {
@@ -404,7 +404,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_syj.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_syj.js"
             }
         },
         {
@@ -414,7 +414,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_unsubscribe.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_unsubscribe.js"
             }
         },
         {
@@ -424,7 +424,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_z_health_community.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_z_health_community.js"
             }
         },
         {
@@ -434,7 +434,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_z_health_energy.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_z_health_energy.js"
             }
         },
         {
@@ -444,7 +444,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_dpqd.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_dpqd.js"
             }
         },
         {
@@ -454,7 +454,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_ppdz.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ppdz.js"
             }
         },
         {
@@ -464,7 +464,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_nzmh.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_nzmh.js"
             }
         },
         {
@@ -474,7 +474,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_monk_shop_lottery.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_monk_shop_lottery.js"
             }
         },
         {
@@ -484,7 +484,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_super_redrain.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_super_redrain.js"
             }
         },
         {
@@ -494,7 +494,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_half_redrain.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_half_redrain.js"
             }
         },
         {
@@ -504,7 +504,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_market_lottery.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_market_lottery.js"
             }
         },
         {
@@ -514,7 +514,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_gold_creator.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_gold_creator.js"
             }
         },
         {
@@ -524,7 +524,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_djjl.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_djjl.js"
             }
         },
         {
@@ -534,7 +534,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_kj.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_kj.js"
             }
         },
         {
@@ -544,7 +544,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_tyt.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_tyt.js"
             }
         },
         {
@@ -554,7 +554,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_jxmc.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_jxmc.js"
             }
         },
         {
@@ -564,7 +564,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_zjb.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_zjb.js"
             }
         },
         {
@@ -574,7 +574,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_hwsx.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_hwsx.js"
             }
         },
         {
@@ -584,7 +584,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_ddly.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ddly.js"
             }
         },
         {
@@ -594,7 +594,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_qqxing.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_qqxing.js"
             }
         },
       {
@@ -604,7 +604,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_lsj.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_lsj.js"
             }
         },
             {
@@ -614,7 +614,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_wsdlb.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_wsdlb.js"
             }
         },
          {
@@ -624,7 +624,7 @@
             "running": true,
             "job": {
                 "type": "runjs",
-                "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_ylyn.js"
+                "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ylyn.js"
             }
         },
     {
@@ -634,7 +634,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_joy_park_task.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_joy_park_task.js"
       }
     },
        {
@@ -644,7 +644,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_joypark_joy.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_joypark_joy.js"
       }
     },
       {
@@ -654,7 +654,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_wxFans.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_wxFans.js"
       }
     },
       {
@@ -664,7 +664,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_DrawEntrance.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_DrawEntrance.js"
       }
     },
        {
@@ -674,7 +674,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_big_winner.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_big_winner.js"
       }
     },
        {
@@ -684,7 +684,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_superBrand.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_superBrand.js"
       }
     },
       {
@@ -694,7 +694,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_jxqd.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_jxqd.js"
       }
     },
        {
@@ -704,7 +704,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_jxg.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_jxg.js"
       }
     },
       {
@@ -714,7 +714,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_jxlhb.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_jxlhb.js"
       }
     },
         {
@@ -724,7 +724,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_ccSign.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ccSign.js"
       }
     },
        {
@@ -734,7 +734,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_mohe.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_mohe.js"
       }
     },
        {
@@ -744,7 +744,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_superBrand.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_superBrand.js"
       }
     },
        {
@@ -754,7 +754,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_dwapp.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_dwapp.js"
       }
     },
       {
@@ -764,7 +764,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://gitee.com/asd920/Auto-jd/raw/main/jd_goodMorning.js"
+        "target": "https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_goodMorning.js"
       }
     }
     ]

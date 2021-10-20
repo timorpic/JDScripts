@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 送豆得豆
 活动入口：来客有礼小程序
 已支持IOS双京东账号,Node.js支持N个京东账号
@@ -87,7 +101,7 @@ if ($.isNode()) {
   }
   await getAuthorShareCode()
   if ($.authorCode && $.authorCode.length) {
-    console.log(`\n开始帮【asd920】助力，感谢！\n`);
+    console.log(`\n开始帮【timorpic】助力，感谢！\n`);
     for (let i = 0; i < cookiesArr.length && i < $.authorCode.length; i++) {
       cookie = cookiesArr[i];
       $.UserName = decodeURIComponent($.cookie.match(/pt_pin=(.+?);/) && $.cookie.match(/pt_pin=(.+?);/)[1])

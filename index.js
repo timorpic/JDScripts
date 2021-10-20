@@ -1,3 +1,17 @@
+/*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
 //'use strict';
 exports.main_handler = async (event, context, callback) => {
   try {
@@ -15,7 +29,7 @@ exports.main_handler = async (event, context, callback) => {
           break;
         case 'git':
           //2.执行github远端的js文件(因github的raw类型的文件被墙,此方法云函数不推荐)
-          request(`https://ghproxy.com/https://raw.githubusercontent.com/asd920/Auto-jd/main/${v}.js`, function (error, response, body) {
+          request(`https://ghproxy.com/https://raw.githubusercontent.com/timorpic/JDScripts/main/${v}.js`, function (error, response, body) {
             eval(response.body)
           })
           break;
