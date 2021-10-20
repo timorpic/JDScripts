@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 东东小窝 jd_small_home.js
 Last Modified time: 2021-6-27 13:27:20
 现有功能：
@@ -77,11 +91,11 @@ const JD_API_HOST = 'https://lkyl.dianpusoft.cn/api';
       await smallHome();
     }
   }
-  $.inviteCodes = await getAuthorShareCode('https://raw.githubusercontent.com/asd920/updateTeam/main/shareCodes/jd_updateSmallHomeInviteCode.json')
+  $.inviteCodes = await getAuthorShareCode('https://sub.timor.icu/JDscripts/jd_updateSmallHomeInviteCode.json')
   if (!$.inviteCodes) {
-    $.http.get({url: 'https://purge.jsdelivr.net/gh/asd920/updateTeam@main/shareCodes/jd_updateSmallHomeInviteCode.json'}).then((resp) => {}).catch((e) => $.log('刷新CDN异常', e));
+    $.http.get({url: 'https://sub.timor.icu/JDscripts/jd_updateSmallHomeInviteCode.json'}).then((resp) => {}).catch((e) => $.log('刷新CDN异常', e));
     await $.wait(1000)
-    $.inviteCodes = await getAuthorShareCode('https://cdn.jsdelivr.net/gh/asd920/updateTeam@main/shareCodes/jd_updateSmallHomeInviteCode.json')
+    $.inviteCodes = await getAuthorShareCode('https://sub.timor.icu/JDscripts/jd_updateSmallHomeInviteCode.json')
   }
   for (let i = 0; i < cookiesArr.length; i++) {
     if (cookiesArr[i]) {

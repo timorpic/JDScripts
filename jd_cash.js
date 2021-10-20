@@ -1,18 +1,4 @@
 /*
- * @layout: post
- * @title: Templates
- * @date: Do not edit
- * @updated: Do not edit
- * @categories: - 分类1, - 分类2
- * @tags: - 标签1, - 标签2
- * @description: 描述
- * @keywords: - 关键字1, -关键字2
- * @comments: true/false
- * @photos: - photo_url_1, - photo_url_2, - photo_url_3
- * @link: 文章的外部url链接
- * @abbrlink: 
- */
-/*
 签到领现金，每日2毛～5毛
 可互助，助力码每日不变，只变日期
 活动入口：京东APP搜索领现金进入
@@ -64,11 +50,11 @@ let allMessage = '';
     return;
   }
   await requireConfig()
-  $.authorCode = await getAuthorShareCode('https://raw.githubusercontent.com/asd920/updateTeam/main/shareCodes/jd_updateCash.json')
+  $.authorCode = await getAuthorShareCode('https://sub.timor.icu/JDscripts/jd_updateCash.json')
   if (!$.authorCode) {
-    $.http.get({url: 'https://purge.jsdelivr.net/gh/asd920/updateTeam@main/shareCodes/jd_updateCash.json'}).then((resp) => {}).catch((e) => $.log('刷新CDN异常', e));
+    $.http.get({url: 'https://purge.jsdelivr.net/gh/xxxx/jd_updateCash.json'}).then((resp) => {}).catch((e) => $.log('刷新CDN异常', e));
     await $.wait(1000)
-    $.authorCode = await getAuthorShareCode('https://cdn.jsdelivr.net/gh/asd920/updateTeam@main/shareCodes/jd_updateCash.json') || []
+    $.authorCode = await getAuthorShareCode('https://cdn.jsdelivr.net/gh/xxxx/jd_updateCash.json') || []
   }
   for (let i = 0; i < cookiesArr.length; i++) {
     if (cookiesArr[i]) {

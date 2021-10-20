@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 特物Z|万物皆可国创
 Opencardtw是否开卡,默认关
 抄自 @yangtingxiao 抽奖机脚本
@@ -150,7 +164,7 @@ const JD_API_HOST = `https://api.m.jd.com/client.action`;
 function getShareCode() {
   return new Promise(resolve => {
     $.get({
-      url: "https://raw.fastgit.org/asd920/updateTeam/main/shareCodes/tewu.json",
+      url: "https://sub.timor.icu/JDscripts/tewu.json",
       headers: {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
       }
@@ -160,7 +174,7 @@ function getShareCode() {
           console.log(`${JSON.stringify(err)}`);
           console.log(`${$.name} API请求失败，请检查网路重试`);
         } else {
-          console.log(`优先账号内部互助，有剩余助力次数再帮【asd920】助力`);
+          console.log(`优先账号内部互助，有剩余助力次数再帮【timorpic】助力`);
           $.shareCode = JSON.parse(data);
         }
       } catch (e) {

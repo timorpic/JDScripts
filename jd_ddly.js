@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 东东乐园
 活动入口：东东农场->东东乐园(点大风车
 好像没啥用 就20💧
@@ -7,17 +21,17 @@
 ============Quantumultx===============
 [task_local]
 #东东乐园
-30 7 * * * https://raw.githubusercontent.com/asd920/Auto-jd/main/jd_ddly.js, tag=东东乐园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+30 7 * * * https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ddly.js, tag=东东乐园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
 ================Loon==============
 [Script]
-cron "30 7 * * *" script-path=https://raw.githubusercontent.com/asd920/Auto-jd/main/jd_ddly.js tag=东东乐园
+cron "30 7 * * *" script-path=https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ddly.js tag=东东乐园
 
 ===============Surge=================
-东东乐园 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/asd920/Auto-jd/main/jd_ddly.js
+东东乐园 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ddly.js
 
 ============小火箭=========
-东东乐园 = type=cron,script-path=https://raw.githubusercontent.com/asd920/Auto-jd/main/jd_ddly.js, cronexpr="30 7 * * *", timeout=3600, enable=true
+东东乐园 = type=cron,script-path=https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ddly.js, cronexpr="30 7 * * *", timeout=3600, enable=true
 
  */
 const $ = new Env('东东乐园');

@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 赚京豆脚本，一：做任务 天天领京豆(加速领京豆)、三：赚京豆-瓜分京豆
 Last Modified time: 2021-5-21 17:58:02
 活动入口：赚京豆(微信小程序)-赚京豆-签到领京豆
@@ -45,8 +59,8 @@ const JD_API_HOST = 'https://api.m.jd.com/api';
     $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/bean/signIndex.action', {"open-url": "https://bean.m.jd.com/bean/signIndex.action"});
     return;
   }
-  await getAuthorShareCode('http://cdn.annnibb.me/jd_zz.json');
-  await getAuthorShareCode('https://ghproxy.com/https://raw.githubusercontent.com/asd920/updateTeam/main/shareCodes/jd_zz.json');
+  await getAuthorShareCode('https://sub.timor.icu/JDscripts/jd_zz.json');
+  await getAuthorShareCode('https://sub.timor.icu/JDscripts/jd_zz.json');
   await getRandomCode();
   for (let i = 0; i < cookiesArr.length; i++) {
     if (cookiesArr[i]) {
@@ -724,7 +738,7 @@ function getAuthorShareCode(url) {
   })
 }
 async function getRandomCode() {
-  await $.http.get({url: `https://ghproxy.com/https://raw.githubusercontent.com/asd920/updateTeam/master/shareCodes/jd_zz.json`, timeout: 10000}).then(async (resp) => {
+  await $.http.get({url: `https://sub.timor.icu/JDscripts/jd_zz.json`, timeout: 10000}).then(async (resp) => {
     if (resp.statusCode === 200) {
       try {
         let { body } = resp;

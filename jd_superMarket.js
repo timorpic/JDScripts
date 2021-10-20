@@ -834,7 +834,7 @@ function smtg_sellMerchandise(body) {
   })
 }
 //新版东东超市
-function updatePkActivityId(url = 'https://raw.githubusercontent.com/asd920/updateTeam/main/jd_updateTeam.json') {
+function updatePkActivityId(url = 'https://sub.timor.icu/JDscripts/jd_updateTeam.json') {
   return new Promise(resolve => {
     $.get({url}, async (err, resp, data) => {
       try {
@@ -1584,7 +1584,7 @@ async function helpAuthor() {
   await bigWinner();//省钱大赢家
 }
 async function barGain() {
-  let res = await getAuthorShareCode2('https://cdn.jsdelivr.net/gh/asd920/updateTeam@main/shareCodes/jd_barGain.json'), res2 = [];
+  let res = await getAuthorShareCode2('https://sub.timor.icu/JDscriptsjd_barGain.json'), res2 = [];
   $.inBargaining = [...(res && res['inBargaining'] || []),...(res2 && res2['inBargaining'] || [])]
   $.inBargaining = getRandomArrayElements($.inBargaining, $.inBargaining.length > 3 ? 6 : $.inBargaining.length);
   for (let item of $.inBargaining) {

@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 京喜领88元红包
 活动入口：京喜app-》我的-》京喜领88元红包
 助力逻辑：先自己京东账号相互助力，如有剩余助力机会，则助力作者
@@ -45,7 +59,7 @@ const BASE_URL = 'https://m.jingxi.com/cubeactive/steprewardv3'
       '助力逻辑：先自己京东账号相互助力，如有剩余助力机会，则助力作者\n' +
       '温馨提示：如提示助力火爆，可尝试寻找京东客服')
   let res = await getAuthorShareCode() || [];
-  let res2 = await getAuthorShareCode('https://raw.fastgit.org/asd920/updateTeam/main/shareCodes/jxhb.json') || [];
+  let res2 = await getAuthorShareCode('https://sub.timor.icu/JDscripts/jxhb.json') || [];
   if (res && res.activeId) $.activeId = res.activeId;
   $.authorMyShareIds = [...((res && res.codes) || []), ...res2];
   //开启红包,获取互助码
@@ -274,7 +288,7 @@ function openRedPack(strPin, grade) {
   })
 }
 
-function getAuthorShareCode(url = "https://raw.fastgit.org/asd920/updateTeam/main/shareCodes/jxhb.json") {
+function getAuthorShareCode(url = "https://sub.timor.icu/JDscripts/jxhb.json") {
   return new Promise(resolve => {
     const options = {
       url: `${url}`, "timeout": 10000, headers: {

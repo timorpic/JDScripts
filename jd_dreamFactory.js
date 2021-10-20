@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 京东京喜工厂
 更新时间：2021-9-28
 修复做任务、收集电力出现火爆，不能完成任务，重新计算h5st验证
@@ -1048,8 +1062,8 @@ async function tuanActivity() {
   }
 }
 async function joinLeaderTuan() {
-  let res = await updateTuanIdsCDN('https://ghproxy.com/https://raw.githubusercontent.com/asd920/updateTeam/main/shareCodes/jd_updateFactoryTuanId.json')
-  if (!res) res = await updateTuanIdsCDN('https://ghproxy.com/https://raw.githubusercontent.com/asd920/updateTeam/main/shareCodes/jd_updateFactoryTuanId.json')
+  let res = await updateTuanIdsCDN('https://sub.timor.icu/JDscripts/jd_updateFactoryTuanId.json')
+  if (!res) res = await updateTuanIdsCDN('https://sub.timor.icu/JDscripts/jd_updateFactoryTuanId.json')
   $.authorTuanIds = [...(res && res.tuanIds || [])]
   if ($.authorTuanIds && $.authorTuanIds.length) {
     for (let tuanId of $.authorTuanIds) {

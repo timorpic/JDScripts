@@ -1,26 +1,11 @@
 /*
- * @layout: post
- * @title: Templates
- * @date: Do not edit
- * @updated: Do not edit
- * @categories: - 分类1, - 分类2
- * @tags: - 标签1, - 标签2
- * @description: 描述
- * @keywords: - 关键字1, -关键字2
- * @comments: true/false
- * @photos: - photo_url_1, - photo_url_2, - photo_url_3
- * @link: 文章的外部url链接
- * @abbrlink: 
- */
-// @grant nodejs
-/*
 ENV
 
 JOY_COIN_MAXIMIZE =      最大化硬币收益，如果合成后全部挖土后还有空位，则开启此模式（默认关闭） 0关闭 1开启
 
 请确保新用户助力过开工位，否则开启游戏了就不算新用户，后面就不能助力开工位了！！！！！！！！！！
 
-脚本会默认帮asd920助力开工位，如需关闭请添加变量，变量名：HELP_JOYPARK，变量值：false
+脚本会默认帮timorpic助力开工位，如需关闭请添加变量，变量名：HELP_JOYPARK，变量值：false
 
 更新地址：https://github.com/Tsukasa007/my_script
 
@@ -101,11 +86,11 @@ message = ""
         } else {
           await getShareCode()
           if ($.kgw_invitePin && $.kgw_invitePin.length) {
-            $.log("开始帮【asd920】助力开工位\n");
+            $.log("开始帮【timorpic】助力开工位\n");
             $.kgw_invitePin = [...($.kgw_invitePin || [])][Math.floor((Math.random() * $.kgw_invitePin.length))];
             let resp = await getJoyBaseInfo(undefined, 2, $.kgw_invitePin);
             if (resp.helpState && resp.helpState === 1) {
-              $.log("帮【asd920】开工位成功，感谢！\n");
+              $.log("帮【timorpic】开工位成功，感谢！\n");
             } else if (resp.helpState && resp.helpState === 3) {
               $.log("你不是新用户！跳过开工位助力\n");
             } else if (resp.helpState && resp.helpState === 2) {
@@ -453,7 +438,7 @@ function doJoyRestart() {
 function getShareCode() {
   return new Promise(resolve => {
       $.get({
-          url: "https://raw.fastgit.org/asd920/updateTeam/main/shareCodes/joypark.json",
+          url: "https://sub.timor.icu/JDscripts/joypark.json",
           headers: {
               "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
           }

@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 特别声明：
 本脚本搬运自 https://github.com/whyour/hundun/blob/master/quanx/jx_nc.js
 感谢 @whyour 大佬
@@ -187,7 +201,7 @@ function requireConfig() {
 
     try {
       let options = {
-        "url": `https://ghproxy.com/https://raw.githubusercontent.com/asd920/updateTeam/main/shareCodes/jxnc.txt`,
+        "url": `https://sub.timor.icu/JDscripts/jxnc.txt`,
         "headers": {
           "Accept": "application/json,text/plain, */*",
           "Content-Type": "application/x-www-form-urlencoded",

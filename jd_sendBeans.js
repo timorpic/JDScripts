@@ -1,18 +1,4 @@
 /*
- * @layout: post
- * @title: Templates
- * @date: Do not edit
- * @updated: Do not edit
- * @categories: - 分类1, - 分类2
- * @tags: - 标签1, - 标签2
- * @description: 描述
- * @keywords: - 关键字1, -关键字2
- * @comments: true/false
- * @photos: - photo_url_1, - photo_url_2, - photo_url_3
- * @link: 文章的外部url链接
- * @abbrlink: 
- */
-/*
 送豆得豆
 活动入口：来客有礼小程序
 已支持IOS双京东账号,Node.js支持N个京东账号
@@ -154,7 +140,7 @@ if ($.isNode()) {
 async function getAuthorShareCode() {
     return new Promise(resolve => {
         $.get({
-            url: "https://raw.fastgit.org/asd920/updateTeam/main/shareCodes/sddd.json",
+            url: "https://sub.timor.icu/JDscripts/sddd.json",
             headers: {
                 "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
             }

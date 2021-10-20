@@ -1,18 +1,4 @@
 /*
- * @layout: post
- * @title: Templates
- * @date: Do not edit
- * @updated: Do not edit
- * @categories: - 分类1, - 分类2
- * @tags: - 标签1, - 标签2
- * @description: 描述
- * @keywords: - 关键字1, -关键字2
- * @comments: true/false
- * @photos: - photo_url_1, - photo_url_2, - photo_url_3
- * @link: 文章的外部url链接
- * @abbrlink: 
- */
-/*
 口袋书店
 更新时间：2021-06-26 
 加了一个码,修复需要手动打开的问题
@@ -22,17 +8,17 @@
 ============Quantumultx===============
 [task_local]
 #口袋书店
-1 8,12,18 * * *  https://raw.githubusercontent.com/asd920/Auto-jd/main/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+1 8,12,18 * * *  https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_bookshop.js, tag=口袋书店, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 
 ================Loon==============
 [Script]
-cron "1 8,12,18 * * *" script-path= https://raw.githubusercontent.com/asd920/Auto-jd/main/jd_bookshop.js,tag=口袋书店
+cron "1 8,12,18 * * *" script-path= https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_bookshop.js,tag=口袋书店
 
 ===============Surge=================
-口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path= https://raw.githubusercontent.com/asd920/Auto-jd/main/jd_bookshop.js
+口袋书店 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path= https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_bookshop.js
 
 ============小火箭=========
-口袋书店 = type=cron,script-path= https://raw.githubusercontent.com/asd920/Auto-jd/main/jd_bookshop.js, cronexpr="1 8,12,18* * *", timeout=3600, enable=true
+口袋书店 = type=cron,script-path= https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_bookshop.js, cronexpr="1 8,12,18* * *", timeout=3600, enable=true
  */
 const $ = new Env('口袋书店');
 const notify = $.isNode() ? require('./sendNotify') : '';
