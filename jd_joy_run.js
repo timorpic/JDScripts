@@ -1,4 +1,18 @@
 /*
+ * @layout: post
+ * @title: Templates
+ * @date: Do not edit
+ * @updated: Do not edit
+ * @categories: - 分类1, - 分类2
+ * @tags: - 标签1, - 标签2
+ * @description: 描述
+ * @keywords: - 关键字1, -关键字2
+ * @comments: true/false
+ * @photos: - photo_url_1, - photo_url_2, - photo_url_3
+ * @link: 文章的外部url链接
+ * @abbrlink: 
+ */
+/*
 Last Modified time: 2021-6-6 21:22:37
 宠汪汪邀请助力与赛跑助力脚本，感谢github@Zero-S1提供帮助
 活动入口：京东APP我的-更多工具-宠汪汪
@@ -50,8 +64,8 @@ const JD_BASE_API = `https://draw.jdfcloud.com//pet`;
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : {};
 //下面给出好友邀请助力的示例填写规则
-let invite_pins = ['jd_4685b2157f874,shingolll,jd_4cbe6a9e9933e,jd_43d5c53f34b16,jd_71894975d5327'];
-let run_pins = ['jd_4685b2157f874,shingolll,jd_4cbe6a9e9933e,jd_43d5c53f34b16,jd_71894975d5327'];
+let invite_pins = ['39242147-966648,jd_4c1cba962a151,231227903-90925406'];
+let run_pins = ['39242147-966648,jd_4c1cba962a151,231227903-90925406'];
 //friendsArr内置太多会导致IOS端部分软件重启,可PR过来(此处目的:帮别人助力可得30g狗粮)
 let friendsArr = ["jd_4685b2157f874", "jd_7399bee01a89e", "shingolll", "13536765947_p"]
 
