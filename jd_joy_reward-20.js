@@ -12,7 +12,7 @@
 
 ==============Loon==============
 [Script]
-cron "59 6,14,22 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
+cron "0 0,8,16 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js,tag=宠汪汪积分兑换奖品
 
 ================Surge===============
 宠汪汪积分兑换奖品 = type=cron,cronexp="59 7,15,23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js
