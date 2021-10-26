@@ -21,7 +21,7 @@ cron "0 0,8,16 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/syn
 宠汪汪积分兑换奖品 = type=cron,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js, cronexpr="59 7,15,23 * * *", timeout=3600, enable=true
  */
 const $ = new Env('宠汪汪积分兑换奖品500豆');
-const zooFaker = require('./JDJRValidator_Pure');
+// const zooFaker = require('./JDJRValidator_Pure');
 // $.get = zooFaker.injectToRequest2($.get.bind($));
 // $.post = zooFaker.injectToRequest2($.post.bind($));
 let allMessage = '';
