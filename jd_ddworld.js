@@ -18,7 +18,7 @@ cron "15 3,9 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sync/
 ============小火箭=========
 东东世界 = type=cron,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ddworld.js, cronexpr="15 3,9 * * *", timeout=3600, enable=true
 */
-const $ = new Env('东东世界');
+const $ = new Env('东东世界_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

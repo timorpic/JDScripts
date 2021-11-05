@@ -15,7 +15,7 @@ cron "45 1,12 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sync
 ============小火箭=========
 送豆得豆 = type=cron,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_sendBeans.js, cronexpr="45 1,12 * * *", timeout=3600, enable=true
  */
-const $ = new Env('送豆得豆');
+const $ = new Env('送豆得豆_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //IOS等用户直接用NobyDa的jd cookie

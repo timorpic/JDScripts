@@ -36,7 +36,7 @@ cron "30 11 * * *" script-path=https://raw.githubusercontent.com/Wenmoux/scripts
 特物Z|万物皆可国创 = type=cron,script-path=https://raw.githubusercontent.com/Wenmoux/scripts/wen/jd/jd_superBrand.js, cronexpr="30 11 * * *", timeout=3600, enable=true
 
  */
-const $ = new Env('特物Z|万物皆可国创');
+const $ = new Env('特物Z|万物皆可国创_Timorpic');
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const randomCount = $.isNode() ? 20 : 5;

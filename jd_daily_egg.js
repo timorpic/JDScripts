@@ -19,7 +19,7 @@ cron "10 * * * *" script-path=jd_daily_egg.js,tag=天天提鹅
 ============小火箭=========
 天天提鹅 = type=cron,script-path=jd_daily_egg.js, cronexpr="10 * * * *", timeout=3600, enable=true
  */
-const $ = new Env('天天提鹅');
+const $ = new Env('天天提鹅_Timorpic');
 let cookiesArr = [], cookie = '';
 const JD_API_HOST = 'https://ms.jr.jd.com/gw/generic/uc/h5/m';
 const notify = $.isNode() ? require('./sendNotify') : '';

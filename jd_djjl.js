@@ -23,7 +23,7 @@
 
  */
 
-const $ = new Env('东东电竞经理');
+const $ = new Env('东东电竞经理_Timorpic');
 let cookiesArr = [], cookie = '', isBox = false, notify, newShareCodes, allMessage = '';
 let tasks = [], shareCodes = [], first = true;
 

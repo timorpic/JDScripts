@@ -13,7 +13,7 @@
  //Surge
  进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_shop.js
 * */
-const $ = new Env('进店领豆');
+const $ = new Env('进店领豆_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

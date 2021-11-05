@@ -3,7 +3,7 @@
 * 第一个CK助力作者，其他CK助力第一个CK
   cron 11 0,9 * * * jd_fission.js
 * */
-const $ = new Env('限时抢京豆');
+const $ = new Env('限时抢京豆_Timorpic');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let cookiesArr = [];
 if ($.isNode()) {

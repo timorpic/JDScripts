@@ -22,7 +22,7 @@ cron "20 0,22 * * *" jd_speed_redpocke.js,tag=京东极速版红包
 京东极速版红包 = type=cron jd_speed_redpocke.js, cronexpr="20 0,22 * * *", timeout=3600, enable=true
 */
 
-const $ = new Env('京东极速版红包');
+const $ = new Env('京东极速版红包_Timorpic');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;

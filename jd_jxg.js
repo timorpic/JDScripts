@@ -3,7 +3,7 @@
 活动路径：边玩边赚-》京小鸽吾悦寄
 很小的几率能抽到实物。
 */
-const $ = new Env('京小鸽吾悦寄');
+const $ = new Env('京小鸽吾悦寄_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 $.helpCodeList = {};

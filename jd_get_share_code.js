@@ -20,7 +20,7 @@ cron "20 13 * * 6" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/j
 ============小火箭=========
 获取互助码 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js, cronexpr="20 13 * * 6", timeout=3600, enable=true
  */
-const $ = new Env("获取互助码");
+const $ = new Env("获取互助码_Timorpic");
 const JD_API_HOST = "https://api.m.jd.com/client.action";
 let cookiesArr = [], cookie = '', message;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

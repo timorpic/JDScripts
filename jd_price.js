@@ -18,7 +18,7 @@ cron "41 0,12,23 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/s
 ============小火箭=========
 京东保价 = type=cron,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_price.js, cronexpr="41 0,12,23 * * *", timeout=3600, enable=true
  */
-const $ = new Env('京东保价');
+const $ = new Env('京东保价_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

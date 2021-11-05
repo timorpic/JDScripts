@@ -20,7 +20,7 @@ cron "30 7 * * *" script-path=https://raw.githubusercontent.com/timorpic/JDScrip
 东东乐园 = type=cron,script-path=https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_ddly.js, cronexpr="30 7 * * *", timeout=3600, enable=true
 
  */
-const $ = new Env('东东乐园');
+const $ = new Env('东东乐园_Timorpic');
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 

@@ -45,7 +45,7 @@ cron "16 22 * * *" script-path=jd_small_home.js, tag=东东小窝
 ============小火箭=========
 东东小窝 = type=cron,script-path=jd_small_home.js, cronexpr="16 22 * * *", timeout=3600, enable=true
  */
-const $ = new Env('东东小窝');
+const $ = new Env('东东小窝_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

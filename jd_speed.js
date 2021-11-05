@@ -24,7 +24,7 @@ cron "1 */3 * * *" script-path=jd_speed.js,tag=京东天天加速
 天天加速 = type=cron,script-path=jd_speed.js, cronexpr="1 */3 * * *", timeout=3600, enable=true
 */
 
-const $ = new Env('✈️天天加速');
+const $ = new Env('✈️天天加速_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

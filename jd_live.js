@@ -20,7 +20,7 @@ cron "10-20/5 12 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/s
 ============小火箭=========
 京东直播 = type=cron,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_live.js, cronexpr="10-20/5 12 * * *", timeout=3600, enable=true
  */
-const $ = new Env('京东直播');
+const $ = new Env('京东直播_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

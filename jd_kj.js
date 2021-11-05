@@ -10,7 +10,7 @@ export activity="这里填获取的商品activityId"
 // 30 */1 * * *
 
 
-const $ = new Env('柠檬0元砍价');
+const $ = new Env('柠檬0元砍价_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

@@ -22,7 +22,7 @@
 #星系牧场
 1 0-23/2 * * * 
 */
-const $ = new Env('QQ星系牧场');
+const $ = new Env('QQ星系牧场_Timorpic');
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const randomCount = $.isNode() ? 20 : 5;

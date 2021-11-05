@@ -20,7 +20,7 @@ cron "10 7 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scrip
 ============小火箭=========
 京东汽车 = type=cron,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_car.js, cronexpr="10 7 * * *", timeout=200, enable=true
  */
-const $ = new Env('京东汽车');
+const $ = new Env('京东汽车_Timorpic');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;

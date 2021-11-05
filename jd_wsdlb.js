@@ -7,7 +7,7 @@
 */
 
 
-const $ = new Env('柠檬我是大老板农场');
+const $ = new Env('柠檬我是大老板农场_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

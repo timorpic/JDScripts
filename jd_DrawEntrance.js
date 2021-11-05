@@ -13,7 +13,7 @@ cron "15 6 * * *" script-path=jd_DrawEntrance.js,tag=天天优惠大乐透
 ============小火箭=========
 天天优惠大乐透 = type=cron,script-path=jd_DrawEntrance.js, cronexpr="15 6 * * *", timeout=3600, enable=true
  */
-const $ = new Env('天天优惠大乐透');
+const $ = new Env('天天优惠大乐透_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

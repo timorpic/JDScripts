@@ -18,7 +18,7 @@ cron "22 0,8 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sync/
 ====================================小火箭=============================
 攒金币 赢大礼 = type=cron,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_GoldcoinToGift.js, cronexpr="22 0,8 * * *", timeout=3600, enable=true
  */
-const $ = new Env('攒金币 赢大礼');
+const $ = new Env('攒金币 赢大礼_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

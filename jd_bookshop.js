@@ -20,7 +20,7 @@ cron "1 8,12,18 * * *" script-path= https://raw.githubusercontent.com/timorpic/J
 ============小火箭=========
 口袋书店 = type=cron,script-path= https://raw.githubusercontent.com/timorpic/JDScripts/main/jd_bookshop.js, cronexpr="1 8,12,18* * *", timeout=3600, enable=true
  */
-const $ = new Env('口袋书店');
+const $ = new Env('口袋书店_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;

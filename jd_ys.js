@@ -20,7 +20,7 @@ cron "5 0,2 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sync/j
 ============小火箭=========
 预售福利机 = type=cron,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ys.js, cronexpr="5 0,2 * * *", timeout=3600, enable=true
  */
-const $ = new Env('预售福利机');
+const $ = new Env('预售福利机_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';

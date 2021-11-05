@@ -25,7 +25,7 @@ cron "1 * * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_script
 ============小火箭=========
 京东家庭号 = type=cron,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_family.js, cronexpr="1 * * * *", timeout=2200, enable=true
  */
-const $ = new Env('京东家庭号');
+const $ = new Env('京东家庭号_Timorpic');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;

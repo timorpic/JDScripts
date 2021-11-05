@@ -19,7 +19,7 @@ cron "4 10 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd
 幸运大转盘 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_market_lottery.js, cronexpr="4 10 * * *", timeout=3600, enable=true
 */
 
-const $ = new Env("幸运大转盘");
+const $ = new Env("幸运大转盘_Timorpic");
 const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
 let cookiesArr = [],
   cookie = "",

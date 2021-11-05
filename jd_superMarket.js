@@ -17,7 +17,7 @@ cron "11 * * * *" script-path=jd_superMarket.js,tag=东东超市
 ==============小火箭=============
 东东超市 = type=cron,script-path=jd_superMarket.js, cronexpr="11 * * * *", timeout=3600, enable=true
  */
-const $ = new Env('东东超市');
+const $ = new Env('东东超市_Timorpic');
 //Node.js用户请在jdCookie.js处填写京东ck;
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', jdSuperMarketShareArr = [], notify, newShareCodes;

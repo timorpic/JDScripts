@@ -7,7 +7,7 @@
  修复兑换api，Fix time:2021-09-06 22:02
 cron 0 0 * * * jd_car_exchange.js
  */
-const $ = new Env('京东汽车兑换');
+const $ = new Env('京东汽车兑换_Timorpic');
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //IOS等用户直接用NobyDa的jd cookie

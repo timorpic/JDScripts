@@ -19,7 +19,7 @@ cron "13 1,6,22 * * *" script-path=https://raw.githubusercontent.com/Aaron-lv/sy
 ============小火箭=========
 东东健康社区 = type=cron,script-path=https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_health.js, cronexpr="13 1,6,22 * * *", timeout=3600, enable=true
  */
-const $ = new Env("东东健康社区");
+const $ = new Env("东东健康社区_Timorpic");
 const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
 const notify = $.isNode() ? require('./sendNotify') : "";
 let cookiesArr = [], cookie = "", allMessage = "", message;

@@ -18,7 +18,7 @@ cron "55 17 * * *" script-path=jd_cleancart.js,tag=清空购物车
 ===========小火箭========
 清空购物车 = type=cron,script-path=jd_cleancart.js, cronexpr="55 17 * * *", timeout=3600, enable=true
  */
-const $ = new Env('清空购物车');
+const $ = new Env('清空购物车_Timorpic');
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
