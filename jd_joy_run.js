@@ -1,18 +1,4 @@
 /*
- * @layout: post
- * @title: Templates
- * @date: Do not edit
- * @updated: Do not edit
- * @categories: - 分类1, - 分类2
- * @tags: - 标签1, - 标签2
- * @description: 描述
- * @keywords: - 关键字1, -关键字2
- * @comments: true/false
- * @photos: - photo_url_1, - photo_url_2, - photo_url_3
- * @link: 文章的外部url链接
- * @abbrlink: 
- */
-/*
 Last Modified time: 2021-6-6 21:22:37
 宠汪汪邀请助力与赛跑助力脚本，感谢github@Zero-S1提供帮助
 活动入口：京东APP我的-更多工具-宠汪汪
@@ -366,13 +352,13 @@ async function invite(invite_pins) {
 function enterRoom(invitePin) {
   return new Promise(resolve => {
     let lkt = new Date().getTime()
-    let lks = $.md5('' + 'JL1VTNRadM68cIMQ' + lkt).toString()
+    let lks = $.md5('' + 'q8DNJdpcfRQ69gIx' + lkt).toString()
     headers['lkt'] = lkt;
     headers['lks'] = lks;
     headers.Cookie = cookie;
     headers.LKYLToken = $.LKYLToken;
     headers['Content-Type'] = "application/json";
-    const url = `https://draw.jdfcloud.com//common/pet/enterRoom/h5?reqSource=weapp&invitePin=${encodeURIComponent(invitePin)}&inviteSource=task_invite&shareSource=weapp&inviteTimeStamp=${Date.now()}&invokeKey=JL1VTNRadM68cIMQ` + $.validate;
+    const url = `https://draw.jdfcloud.com//common/pet/enterRoom/h5?reqSource=weapp&invitePin=${encodeURIComponent(invitePin)}&inviteSource=task_invite&shareSource=weapp&inviteTimeStamp=${Date.now()}&invokeKey=q8DNJdpcfRQ69gIx` + $.validate;
     const options = {
       url,
       body: JSON.stringify({}),
@@ -398,12 +384,12 @@ function enterRoom(invitePin) {
 function helpInviteFriend(friendPin) {
   return new Promise((resolve) => {
     let lkt = new Date().getTime()
-    let lks = $.md5('' + 'JL1VTNRadM68cIMQ' + lkt).toString()
+    let lks = $.md5('' + 'q8DNJdpcfRQ69gIx' + lkt).toString()
     headers['lkt'] = lkt;
     headers['lks'] = lks;
     headers.Cookie = cookie;
     headers.LKYLToken = $.LKYLToken;
-    const url = `https://draw.jdfcloud.com//common/pet/helpFriend?friendPin=${encodeURIComponent(friendPin)}&reqSource=weapp&invokeKey=JL1VTNRadM68cIMQ` + $.validate;
+    const url = `https://draw.jdfcloud.com//common/pet/helpFriend?friendPin=${encodeURIComponent(friendPin)}&reqSource=weapp&invokeKey=q8DNJdpcfRQ69gIx` + $.validate;
     const options = {
       url,
       headers
@@ -465,12 +451,12 @@ async function run(run_pins) {
 function combatHelp(friendPin) {
   return new Promise(resolve => {
     let lkt = new Date().getTime()
-    let lks = $.md5('' + 'JL1VTNRadM68cIMQ' + lkt).toString()
+    let lks = $.md5('' + 'q8DNJdpcfRQ69gIx' + lkt).toString()
     headers['lkt'] = lkt;
     headers['lks'] = lks;
     headers.Cookie = cookie;
     headers.LKYLToken = $.LKYLToken;
-    const url = `https://draw.jdfcloud.com//common/pet/combat/help?friendPin=${encodeURIComponent(friendPin)}&reqSource=weapp&invokeKey=JL1VTNRadM68cIMQ` + $.validate;
+    const url = `https://draw.jdfcloud.com//common/pet/combat/help?friendPin=${encodeURIComponent(friendPin)}&reqSource=weapp&invokeKey=q8DNJdpcfRQ69gIx` + $.validate;
     const options = {
       url,
       headers
@@ -500,12 +486,12 @@ function combatHelp(friendPin) {
 function combatDetail(invitePin) {
   return new Promise(resolve => {
     let lkt = new Date().getTime()
-    let lks = $.md5('' + 'JL1VTNRadM68cIMQ' + lkt).toString()
+    let lks = $.md5('' + 'q8DNJdpcfRQ69gIx' + lkt).toString()
     headers['lkt'] = lkt;
     headers['lks'] = lks;
     headers.Cookie = cookie;
     headers.LKYLToken = $.LKYLToken;
-    const url = `https://draw.jdfcloud.com//common/pet/combat/detail/v2?help=true&inviterPin=${encodeURIComponent(invitePin)}&reqSource=weapp&invokeKey=JL1VTNRadM68cIMQ` + $.validate;
+    const url = `https://draw.jdfcloud.com//common/pet/combat/detail/v2?help=true&inviterPin=${encodeURIComponent(invitePin)}&reqSource=weapp&invokeKey=q8DNJdpcfRQ69gIx` + $.validate;
     const options = {
       url,
       headers

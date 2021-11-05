@@ -25,8 +25,8 @@ let message = '', allMessage = '';
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '';
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
-let appIdArr = ['1E1NXxq0', '1FV1VwKc'];
-let appNameArr = ['众筹许愿池', '惊喜大作战'];
+let appIdArr = ['1E1NXxq0', '1FV1VwKc', '1FFRWxaY', '1FFVQyqw', '1FV1ZwKY'];
+let appNameArr = ['众筹许愿池', '惊喜大作战', '荣耀钞能力', '1111点心动', '好物好生活'];
 let appId, appName;
 $.shareCode = [];
 if ($.isNode()) {
@@ -63,7 +63,7 @@ if ($.isNode()) {
       for (let j = 0; j < appIdArr.length; j++) {
         appId = appIdArr[j]
         appName = appNameArr[j]
-        console.log(`\n开始第${j + 1}个活动：${appName}\n`)
+        console.log(`开始第${j + 1}个活动：${appName}\n`)
         await jd_wish();
       }
     }
@@ -72,7 +72,7 @@ if ($.isNode()) {
   if (!res) {
     $.http.get({url: 'https://sub.timor.icu/JDscripts/wish.json'}).then((resp) => {}).catch((e) => console.log('刷新CDN异常', e));
     await $.wait(1000)
-    res = await getAuthorShareCode('https://cdn.jsdelivr.net/gh/Aaron-lv/updateTeam@master/shareCodes/wish.json')
+    res = await getAuthorShareCode('https://sub.timor.icu/JDscripts/wish.json')
   }
   $.shareCode = [...$.shareCode, ...(res || [])]
   for (let i = 0; i < cookiesArr.length; i++) {
@@ -122,9 +122,9 @@ async function jd_wish() {
     await $.wait(2000)
 
     if (forNum === 0) {
-      console.log(`没有抽奖机会\n`)
+      console.log(`没有抽奖机会\n\n`)
     } else {
-      console.log(`可以抽奖${forNum}次，去抽奖\n`)
+      console.log(`可以抽奖${forNum}次，去抽奖\n\n`)
     }
 
     $.canLottery = true
@@ -151,7 +151,7 @@ async function healthyDay_getHomeData(type = true) {
             if (type) {
               for (let key of Object.keys(data.data.result.taskVos).reverse()) {
                 let vo = data.data.result.taskVos[key]
-                if (vo.status !== 2) {
+                if (vo.status !== 2 && vo.status !== 0) {
                   if (vo.taskType === 13 || vo.taskType === 12) {
                     console.log(`签到`)
                     await harmony_collectScore({"appId":appId,"taskToken":vo.simpleRecordInfoVo.taskToken,"taskId":vo.taskId,"actionType":"0"}, vo.taskType)
@@ -262,7 +262,7 @@ function interact_template_getLotteryResult() {
             let userAwardsCacheDto = data && data.data && data.data.result && data.data.result.userAwardsCacheDto
             if (userAwardsCacheDto) {
               if (userAwardsCacheDto.type === 2) {
-                console.log(`抽中：${userAwardsCacheDto.jBeanAwardVo.quantity}${userAwardsCacheDto.jBeanAwardVo.ext}`)
+                console.log(`抽中：${userAwardsCacheDto.jBeanAwardVo.quantity}${userAwardsCacheDto.jBeanAwardVo.ext || `京豆`}`)
               } else if (userAwardsCacheDto.type === 0) {
                 console.log(`很遗憾未中奖~`)
               } else {
