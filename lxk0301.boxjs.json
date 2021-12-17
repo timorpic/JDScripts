@@ -4,8 +4,7 @@
   "author": "@LXK9301",
   "icon": "https://avatars0.githubusercontent.com/u/21308593?s=52&v=4",
   "repo": "https://github.com/LXK9301/jd_scripts/",
-  "apps": [
-    {
+  "apps": [{
       "id": "JD_Cookies",
       "name": "京东多账号 Ck 管理",
       "keys": ["CookiesJD"],
@@ -15,17 +14,15 @@
         "使用方式【<a href=\"https://home.m.jd.com/myJd/newhome.action\">个人中心</a>】获取对应的数据Code",
         "注：如与NobyDa的京东cookie出现重复，建议在此处删除重复的cookie"
       ],
-      "settings": [
-        {
-          "id": "CookiesJD",
-          "name": "CK 列表",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 8,
-          "desc": "CK 列表 (JSON 格式)"
-        }
-      ],
+      "settings": [{
+        "id": "CookiesJD",
+        "name": "CK 列表",
+        "val": "",
+        "type": "textarea",
+        "autoGrow": true,
+        "rows": 8,
+        "desc": "CK 列表 (JSON 格式)"
+      }],
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
         "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
@@ -44,15 +41,13 @@
         "自行抓包京东APP获得，UserAgent类似下面：",
         "jdapp;iPhone;9.3.0;14.2;88732f840b77821b345bf07fd71f609e6ff12f43;network/4g;ADID/0E38E9F1-4B4C-40A4-A479-DD15E58A5623;supportApplePay/0;hasUPPay/0;hasOCPay/0;model/iPhone11,8;addressid/2005183373;supportBestPay/0;appBuild/167436;pushNoticeIsOpen/0;jdSupportDarkMode/0;pv/142.46;apprpd/CouponCenter;ref/NewCouponCenterViewController;psq/44;ads/;psn/88732f840b77821b345bf07fd71f609e6ff12f43|551;jdv/0|kong|t_1000170135|tuiguang|notset|1607732510603|1607732510;adk/;app_device/IOS;pap/JA2015_311210|9.2.5|IOS 14.2;Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"
       ],
-      "settings": [
-        {
-          "id": "JDUA",
-          "name": "自定义京东脚本的UserAgent",
-          "val": "",
-          "type": "text",
-          "desc": "不懂不知不会UserAgent的请不要随意填写内容，如需填写使用建议使用京东APP的UserAgent"
-        }
-      ],
+      "settings": [{
+        "id": "JDUA",
+        "name": "自定义京东脚本的UserAgent",
+        "val": "",
+        "type": "text",
+        "desc": "不懂不知不会UserAgent的请不要随意填写内容，如需填写使用建议使用京东APP的UserAgent"
+      }],
       "author": "@LXK9301",
       "repo": "https://github.com/LXK9301/jd_scripts",
       "icons": [
@@ -78,8 +73,7 @@
       "descs_html": [
         "<h4 align=\"center\">获取Cookie请查看NobyDa京东签到脚本说明<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js\">脚本注释</a></h4>"
       ],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdFruitNotify",
           "name": "静默运行",
           "val": false,
@@ -189,8 +183,7 @@
         "jd2_pet4",
         "jd2_pet5"
       ],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdPetNotify",
           "name": "静默运行",
           "val": false,
@@ -303,8 +296,7 @@
         "jd2_plantBean2",
         "jd2_plantBean3"
       ],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdPlantBeanNotify",
           "name": "静默运行",
           "val": true,
@@ -380,8 +372,7 @@
       "id": "jd_Joy",
       "name": "宠汪汪",
       "keys": [],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdJoyNotify",
           "name": "静默运行",
           "val": true,
@@ -415,8 +406,7 @@
           "val": "10",
           "type": "radios",
           "desc": "每次喂养狗粮克数(默认10g)",
-          "items": [
-            {
+          "items": [{
               "key": "10",
               "label": "消耗10g"
             },
@@ -447,8 +437,7 @@
       "id": "jd_Joy_Reward",
       "name": "宠汪汪积分兑换京豆",
       "keys": [],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdJoyRewardNotify",
           "name": "静默运行",
           "val": false,
@@ -461,8 +450,7 @@
           "val": "1",
           "type": "radios",
           "desc": "默认开启兑换，如不想兑换可选择不兑换",
-          "items": [
-            {
+          "items": [{
               "key": "0",
               "label": "不兑换奖品(选择此项将不兑换奖品)"
             },
@@ -502,8 +490,7 @@
         "jd2_joy_run_pin"
       ],
       "desc": "宠汪汪的互助码friendPin是京东用户名,不是昵称(可在京东APP->我的->设置查看)。互助码之间用英文逗号隔开,下面给出具体示例,使用时可自行清空重新按格式填写你自己的",
-      "settings": [
-        {
+      "settings": [{
           "id": "joyRunFlag",
           "name": "是否参加赛跑(默认参加)",
           "val": true,
@@ -572,8 +559,7 @@
       "id": "jd_MoneyTree",
       "name": "京东摇钱树",
       "keys": [],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdMoneyTreeNotify",
           "name": "静默运行",
           "val": true,
@@ -600,15 +586,13 @@
       "id": "jd_Speed",
       "name": "京东天天加速",
       "keys": [],
-      "settings": [
-        {
-          "id": "jdSpeedNotify",
-          "name": "静默运行",
-          "val": true,
-          "type": "boolean",
-          "desc": "运行京东天天加速脚本时不发出系统弹窗通知"
-        }
-      ],
+      "settings": [{
+        "id": "jdSpeedNotify",
+        "name": "静默运行",
+        "val": true,
+        "type": "boolean",
+        "desc": "运行京东天天加速脚本时不发出系统弹窗通知"
+      }],
       "author": "@LXK9301",
       "repo": "https://github.com/LXK9301/jd_scripts",
       "script": "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_speed.js",
@@ -624,8 +608,7 @@
         "jdUnsubscribeStopGoods",
         "jdUnsubscribeStopShop"
       ],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdUnsubscribeNotify",
           "name": "静默运行",
           "val": false,
@@ -676,8 +659,7 @@
         "UN_BIND_CARD_NUM",
         "UN_BIND_STOP_CARD"
       ],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdUnbindCardNotify",
           "name": "静默运行",
           "val": false,
@@ -711,8 +693,7 @@
       "id": "jd_SuperMarket",
       "name": "京小超",
       "keys": [],
-      "settings": [
-        {
+      "settings": [{
           "id": "jdSuperMarketNotify",
           "name": "静默运行",
           "val": true,
@@ -743,12 +724,10 @@
       ],
       "author": "@LXK9301",
       "repo": "https://github.com/LXK9301/jd_scripts",
-      "scripts":[
-        {
-          "name" : "京小超",
-          "script" : "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_superMarket.js"
-        }
-      ],
+      "scripts": [{
+        "name": "京小超",
+        "script": "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_superMarket.js"
+      }],
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jxc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
@@ -761,8 +740,7 @@
         "coinToBeans"
       ],
       "desc": "默认不兑换奖品,例如:兑换20京豆输入20,兑换1000京豆输入1000,兑换 柠檬果香洗手液， 输入 柠檬果香洗手液。其他详细的奖品名称去京小超活动页面查看",
-      "settings": [
-        {
+      "settings": [{
           "id": "jdSuperMarketRewardNotify",
           "name": "静默运行",
           "val": false,
@@ -779,12 +757,10 @@
       ],
       "author": "@LXK9301",
       "repo": "https://github.com/LXK9301/jd_scripts",
-      "scripts": [
-        {
-          "name" : "京小超兑换奖品",
-          "script" : "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_blueCoin.js"
-        }
-      ],
+      "scripts": [{
+        "name": "京小超兑换奖品",
+        "script": "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_blueCoin.js"
+      }],
       "icons": [
         "https://raw.githubusercontent.com/58xinian/icon/master/jxc_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
@@ -799,8 +775,7 @@
         "repo",
         "TRIGGER_KEYWORDS"
       ],
-      "settings": [
-        {
+      "settings": [{
           "id": "ACTIONS_TRIGGER_TOKEN",
           "name": "github token",
           "val": "",
@@ -845,8 +820,7 @@
         "xmMinStep",
         "xmMaxStep"
       ],
-      "settings": [
-        {
+      "settings": [{
           "id": "xmSportsToken",
           "name": "小米运动Token",
           "val": "",
@@ -882,15 +856,13 @@
       "keys": [
         "FACTORAY_WANTPRODUCT_NAME"
       ],
-      "settings": [
-        {
-          "id": "FACTORAY_WANTPRODUCT_NAME",
-          "name": "心仪商品名称",
-          "val": "",
-          "type": "text",
-          "desc": "请尽量填写完整和别的商品有区分度"
-        }
-      ],
+      "settings": [{
+        "id": "FACTORAY_WANTPRODUCT_NAME",
+        "name": "心仪商品名称",
+        "val": "",
+        "type": "text",
+        "desc": "请尽量填写完整和别的商品有区分度"
+      }],
       "author": "@LXK9301",
       "repo": "https://github.com/LXK9301/jd_scripts",
       "script": "https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jdfactory.js",
